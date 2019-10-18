@@ -1,0 +1,22 @@
+body {
+    background: whitesmoke;
+}
+
+#main-image {
+ background: black;
+}
+
+#search-box {
+    z-index: 0;
+
+}
+
+#Search-Box-Text {
+    font-size: 16px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button#magnifying-glass {
+    
+}
