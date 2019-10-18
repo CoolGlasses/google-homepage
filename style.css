@@ -2,21 +2,34 @@ body {
     background: whitesmoke;
 }
 
-#main-image {
- background: black;
+input {
+    border-radius: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 90%;
+    z-index: -1;
 }
 
-#search-box {
-    z-index: 0;
-
+::-webkit-input-placeholder {
+  color: black;
+  font-size: 9px;
+}
+::-moz-placeholder {
+  color: black;
+  font-size: 9px;
+}
+:-ms-input-placeholder {
+  color: black;
+  font-size: 9px;
+}
+::placeholder {
+  color: black;
+  font-size: 9px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-#Search-Box-Text {
-    font-size: 16px;
-    color: red;
-    font-family: Arial, Helvetica, sans-serif;
-}
+#mag-glass {
 
-button#magnifying-glass {
-    
+    z-index: 10;
+
 }
