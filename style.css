@@ -2,11 +2,30 @@ body {
     background: whitesmoke;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  vertical-align: middle;
+}
+
+div#search-box {
+    display: block;
+}
+img#main-image {
+
+}
+
 input {
+    display: block;
     border-radius: 15px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 90%;
-    z-index: -1;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
 }
 
 ::-webkit-input-placeholder {
@@ -26,10 +45,14 @@ input {
   font-size: 9px;
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
+  overflow: auto;
 }
 
 #mag-glass {
+    position: absolute;
+    padding: 0%;
+}
 
-    z-index: 10;
-
+#outer-mag-glass {
+    width: 100%;
 }
