@@ -1,58 +1,50 @@
+<style>
+
 body {
-    background: whitesmoke;
+    background: gray;
 }
 
-.center {
+header {
+
+}
+
+footer {
+
+}
+
+.logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: auto;
-  vertical-align: middle;
+  width: 50%;
 }
 
-div#search-box {
-    display: block;
+.search-bar {
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+  display: block;
 }
-img#main-image {
+#googleSearch {
 
 }
+.mag-holder {
 
-input {
-    display: block;
-    border-radius: 15px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
+
+}
+.mic-holder {
 
 }
 
-::-webkit-input-placeholder {
-  color: black;
-  font-size: 9px;
-}
-::-moz-placeholder {
-  color: black;
-  font-size: 9px;
-}
-:-ms-input-placeholder {
-  color: black;
-  font-size: 9px;
-}
-::placeholder {
-  color: black;
-  font-size: 9px;
-  text-align: center;
-  font-family: 'Times New Roman', Times, serif;
-  overflow: auto;
+
+.button-section {
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+  display: block;
 }
 
-#mag-glass {
-    position: absolute;
-    padding: 0%;
+.button-section button{
+  display: inline-block;
 }
-
-#outer-mag-glass {
-    width: 100%;
-}
+</style>
