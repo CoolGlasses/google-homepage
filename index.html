@@ -5,12 +5,28 @@
         <link rel="stylesheet" href="style.css">
         <meta charset="utf-8">
     </head>
-    <header>
+    <header class="flex-container">
+        
+     
+            <a href="" id="about">About</a>
+            <a href="" id="store">Store</a>
+        
+            <div id="spacer" style="flex-grow: 8"></div>
+        
+            <a href="" id="Gmail">Gmail</a>
+            <a href="" id="Images">Images</a>
+            
+            <img src="GoogleAppsIcon-smaller.png" id="appsicon">
+            <img src="generic-user-icon50px.png" id="usericon">
+          
+            <div class="avatar" id="nav-avatar" name="nav-avatar">
+             
+            </div>
+        </div>
         <!-- Needs a Nav Bar with Icons
         About, Store on the Left (just text)
         Gmail, Images (text links), 9 box icon and an Avatar on Right
         -->
-        Placholder Header!
     </header>
     <body>
 
@@ -18,18 +34,14 @@
                <img id="logo" src="https://tinyurl.com/qhj7asq" name="google-logo" alt="Google">
         </div>
 
-        <div class="search-bar">
+        <div id="search-bar" class="search-bar">
 
-            <input type="search" id="googleSearch" name="q" placeholder="Search Google or type a URL">
+            <input type="search" class="search-bar" id="googleSearch" name="q" placeholder="Search Google or type a URL">
         
-
-                <div id="mag-holder">
-                    <img id="mag-glass" src="mag-glass.png" name="mag-glass" alt="Magnifying Glass">
-                </div>
-
-                <div id="mic-holder">
+            <div id="mic-holder" class="search-bar">
                     <img id="microphone" src="microphone.png" name="microphone" alt="Microphone to Search by Voice">    
-                </div>
+            </div>
+
         </div>
 
         <div class="button-section">

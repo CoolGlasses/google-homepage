@@ -2,10 +2,45 @@
 
 body {
     background: gray;
+    height: auto;
+    width: auto;
 }
 
-header {
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: center;
+}
 
+#images {
+  justify-content: flex-end;
+}
+
+#appsicon {
+  justify-content: flex-end;
+  height: 15px;
+  padding: 8px;
+}
+
+#usericon {
+  height: 15px;
+  padding: 8px;
+}
+
+a {
+  display: inline-block;
+  padding: 8px;
+  font-size: small;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 footer {
@@ -19,21 +54,32 @@ footer {
   width: 50%;
 }
 
-.search-bar {
+#search-bar {
   margin-right: auto;
   margin-left: auto;
   width: 50%;
   display: block;
 }
+
 #googleSearch {
-
+  background: url(mag-glass.png) top left no-repeat;
+  height: 25px;
+  border-radius: 15px;
+  text-align: center;
 }
-.mag-holder {
 
-
+#googleSearch::placeholder {
+  font-size: 10px;
+  text-indent: 20px;
 }
-.mic-holder {
+.search-bar {
+  display: inline-block;
+  
+}
 
+
+img#microphone {
+  vertical-align: text-bottom;
 }
 
 
